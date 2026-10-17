@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lienhe</title>
+    <link rel="stylesheet" href="../css/lienhe.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../images/aura.png">
+        </div>
+        <nav>
+            <a href="../index.html">Trang chủ</a>
+            <a href="./gioithieu.html">Giới thiệu</a>
+            <a href="./menu.html">Menu</a>
+            <a href="./khuyenmai.html">Khuyến mãi</a>
+            <a href="./lienhe.html">Liên hệ</a>
+           
+        </nav>
+    </header>
+    <div class="sologan">
+                <h2>✦ GIỚI THIỆU ✦</h2>
+                <h1>AURA COFFEE</h1>
+                <h2>-ĐÁNH THỨC VỊ GIÁC-</h2>
+                <h3><i>Trọn vị cà phê – Thanh mát vị trà – Ngọt ngào Bingsu</i></h3>
+        </div>
+                <main>
+    
+<div class="danhgia">
+    <h2>⭐ ĐÁNH GIÁ KHÁCH HÀNG ⭐</h2>
+
+    <label for="rating">Bạn đánh giá chất lượng quán như thế nào?</label>
+
+    <select id="rating">
+        <option value="5">⭐⭐⭐⭐⭐ Rất tốt</option>
+        <option value="4">⭐⭐⭐⭐ Tốt</option>
+        <option value="3">⭐⭐⭐ Bình thường</option>
+        <option value="2">⭐⭐ Chưa tốt</option>
+        <option value="1">⭐ Không hài lòng</option>
+    </select>
+
+    <textarea id="comment"
+        placeholder="Nhập đánh giá của bạn..."></textarea>
+
+    <button type="button" onclick="guiDanhGia()">
+        Gửi đánh giá
+    </button>
+
+    <p id="ketQua"></p>
+</div>
+<script>
+    
+function guiDanhGia() {
+    const rating = document.getElementById("rating").value;
+    const comment = document.getElementById("comment").value.trim();
+    const ketQua = document.getElementById("ketQua");
+
+    if (comment === "") {
+        alert("Vui lòng nhập nội dung đánh giá!");
+        document.getElementById("comment").focus();
+        return;
+    }
+
+    ketQua.innerHTML = `
+        <strong>💖 Cảm ơn quý khách!</strong><br>
+        Đánh giá của bạn: ${rating} sao<br>
+        Nội dung: ${comment.replace(/&/g, "&amp;")
+                            .replace(/</g, "&lt;")
+                            .replace(/>/g, "&gt;")}
+    `;
+
+    ketQua.style.display = "block";
+    document.getElementById("comment").value = "";
+}
+
+</script>
+
+
+      </main>
+       <footer>
+                     <h3>AURA COFFE</h3>
+                        <p>Trọn vị cà phê – Thanh mát vị trà – Ngọt ngào Bingsu</p>
+                        <p>📍 Địa chỉ: Cao Lãnh, Đồng Tháp</p>
+                        <p>📞 Điện thoại: 0979 158 443</p>
+                        <p>✉️ Email: auracoffee@gmail.com</p>
+                        <p>🕒 Giờ mở cửa: 07:00 – 22:00</p>
+                        <p>📘 Facebook: AURA COFFEE</p>
+                        <p class="copyright">
+        © 2026 AURA COFFEE . All rights reserved.<br>
+       Designed with ❤️ by Van Duonq 
+    </p>
+        </footer>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,145 @@
+body{
+    background-color: #FFF8E7;
+}
+header{
+    text-align: center;
+}
+
+div img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+
+
+
+ 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    width: 100%;
+    background-color: #F5E6D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 18px;
+    box-shadow: 0 2px 5px #ccc;
+    
+}
+
+nav a {
+    color: #603B25;
+    padding: 10px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+    
+}
+
+nav a:hover {
+  background-color: #914b09;
+  color:white;
+}
+.sologan {
+    text-align: center;
+    color: #603B25;
+    
+}
+.anh {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 30px;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.anh img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+}
+.coffee {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #6B422D;
+    color: #FFF8E7;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.tratraicay {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #E9A66C;
+    color: #603B25;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.bingsu {
+    background-color: #D8C6E8;
+    color: #603B25;
+    text-align: center;
+    display: block;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.sinhto{
+    
+    background-color: #78966A;
+    color: #FFF8E7;
+    text-align: center;
+    display: block;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+
+}
+
+
+
+footer {
+    background-color: #603B25;
+    color: #FFF8E7;
+    width: 100%;
+    padding: 30px 25px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer h3 {
+    color: #F5D7B2;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #FFF8E7;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 12px 0;
+}
+.copyright {
+    border-top: 1px solid #98745C;
+    padding-top: 15px;
+    font-size: 13px;
+}

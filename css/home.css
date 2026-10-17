@@ -1,0 +1,163 @@
+body{
+    background-color: #FFF8E7;
+}
+header{
+    text-align: center;
+}
+
+div img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+
+
+
+ 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    width: 100%;
+    background-color: #F5E6D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 18px;
+    box-shadow: 0 2px 5px #ccc;
+    
+}
+
+nav a {
+    color: #603B25;
+    padding: 10px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+    
+}
+
+nav a:hover {
+  background-color: #914b09;
+  color:white;
+}
+
+.sologan {
+    text-align: center;
+    color: #603B25;
+    
+}
+.gioithieu{
+    text-align: justify;
+    font-size: 30px;
+    
+}
+.baner{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    border-radius: 0;
+}
+.anh {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 30px;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.anh img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+}
+.khuyenmai{
+     background-color: #E8C5B8;
+    color: #603B25;
+    text-align: center;
+    padding: 45px 20px;
+    margin: 40px 0;
+    border-radius: 15px;
+}
+.khuyenmai h2 {
+    color: #603B25;
+    font-size: 25px;
+}
+.khuyenmai h1 {
+    color: #8B5E3C;
+    font-size: 50px;
+    margin: 15px 0;
+    letter-spacing: 3px;
+}
+
+.khuyenmai p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.khuyenmaiii{
+     display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #F5D7B2;
+    color: #603B25;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+
+}
+.khuyenmaiii:hover{
+     background-color: white;
+      color: #603B25;
+}
+html {
+    scroll-behavior: smooth;
+}
+.menu:hover{
+     background-color: white;
+      color: #603B25
+}
+.menu{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #F5D7B2;
+    color: #603B25;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+footer {
+    background-color: #603B25;
+    color: #FFF8E7;
+    width: 100%;
+    padding: 30px 25px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer h3 {
+    color: #F5D7B2;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #FFF8E7;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 12px 0;
+}
+.copyright {
+    border-top: 1px solid #98745C;
+    padding-top: 15px;
+    font-size: 13px;
+}
